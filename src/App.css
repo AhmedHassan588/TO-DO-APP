@@ -1,0 +1,46 @@
+.background {
+  background-color: #45b6fe;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  background-color: white;
+  width: 650px;
+  height: 85vh;
+}
+button {
+  cursor: pointer;
+  padding: 9px 29px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.handle {
+  text-align: center;
+  padding-top: 5%;
+}
+input[type="text"] {
+  width: 271px;
+  margin: 0px 14px;
+  height: 38px;
+  border-radius: 6px;
+  padding: 0px 17px;
+}
+.todo {
+  position: absolute;
+  top: 23%;
+  left: 39.5%;
+  right: 0%;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 18%;
+  padding: 13px 14px;
+  border-radius: 8px;
+}
+.butt {
+  POSITION: ABSOLUTE;
+  LEFT: 76%;
+}
