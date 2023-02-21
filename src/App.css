@@ -8,39 +8,38 @@
 .card {
   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
   background-color: white;
-  width: 650px;
-  height: 85vh;
+  padding: 40px;
 }
-button {
+Button {
   cursor: pointer;
-  padding: 9px 29px;
+  padding: 10px 16px;
   font-size: 18px;
   border-radius: 6px;
+  background-color: black;
+  color: white;
+  border: none;
 }
-.handle {
+.input-wrapper {
+  background-color: lightgray;
+  padding: 10px 20px;
   text-align: center;
-  padding-top: 5%;
 }
-input[type="text"] {
-  width: 271px;
-  margin: 0px 14px;
-  height: 38px;
+input {
+  width: 278px;
+  margin: 0px 23px;
+  margin-left: 0;
+  height: 37px;
   border-radius: 6px;
-  padding: 0px 17px;
+  outline: none;
 }
-.todo {
-  position: absolute;
-  top: 23%;
-  left: 39.5%;
-  right: 0%;
+.todos-wrapper {
+  margin-top: 40px;
+}
+.list-item {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
-  width: 18%;
-  padding: 13px 14px;
-  border-radius: 8px;
-}
-.butt {
-  POSITION: ABSOLUTE;
-  LEFT: 76%;
+  margin-bottom: 30px;
+  background-color: lightgray;
+  padding: 10px 20px;
 }
