@@ -1,5 +1,12 @@
 .background {
-  background-color: #45b6fe;
+  background: rgb(6, 77, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 77, 166, 1) 38%,
+    rgba(5, 99, 180, 1) 52%,
+    rgba(3, 134, 203, 1) 78%,
+    rgba(0, 212, 255, 1) 100%
+  );
   height: 100vh;
   display: flex;
   align-items: center;
@@ -7,30 +14,32 @@
 }
 .card {
   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
-  background-color: white;
+  background-color: cadetblue;
   padding: 40px;
 }
 Button {
   cursor: pointer;
-  padding: 10px 16px;
+  padding: 14px 20px;
   font-size: 18px;
-  border-radius: 6px;
-  background-color: black;
+  border-radius: 4px;
+  background-color: dimgrey;
   color: white;
   border: none;
+  margin: 0px 5px;
 }
 .input-wrapper {
-  background-color: lightgray;
-  padding: 10px 20px;
   text-align: center;
 }
 input {
-  width: 278px;
-  margin: 0px 23px;
+  width: 310px;
+  margin: 0px 3px;
   margin-left: 0;
-  height: 37px;
-  border-radius: 6px;
+  height: 48px;
   outline: none;
+  padding: 0px 14px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
 }
 .todos-wrapper {
   margin-top: 40px;
@@ -40,6 +49,12 @@ input {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  background-color: lightgray;
+  background-color: #fff;
   padding: 10px 20px;
+}
+.heading h1 {
+  font-size: 32px;
+  font-family: cursive;
+  text-align: center;
+  color: #fff;
 }
