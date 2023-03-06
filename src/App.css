@@ -19,7 +19,7 @@
 }
 Button {
   cursor: pointer;
-  padding: 14px 20px;
+  padding: 13px 20px;
   font-size: 18px;
   border-radius: 4px;
   background-color: dimgrey;
@@ -29,6 +29,8 @@ Button {
 }
 .input-wrapper {
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 input {
   width: 310px;
@@ -57,4 +59,45 @@ input {
   font-family: cursive;
   text-align: center;
   color: #fff;
+}
+.login-wrapper input {
+  border: 1px solid black;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-filled {
+  display: grid;
+}
+.input-filled input {
+  margin: 6px 0px;
+  border: 1px solid #0000006e;
+  height: 43px;
+}
+.Signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Signup-wrapper {
+  display: grid;
+  gap: 16px;
+}
+.email button {
+  width: 99%;
+  margin-left: 0;
+  margin-top: 5%;
+}
+.heading-signup h1 {
+  text-align: center;
+}
+.validate button {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 5%;
 }
