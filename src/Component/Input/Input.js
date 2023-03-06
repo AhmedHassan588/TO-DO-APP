@@ -1,8 +1,13 @@
 import React from "react";
 
-const Input = ({ children, onChange, value }) => {
+const Input = ({ children, onChange, value, label, placeholder }) => {
   return (
-    <input value={value} onChange={onChange}>
+    <input
+      label={label}
+      value={value}
+      onChange={onChange}
+      placeholder={placeholder}
+    >
       {children}
     </input>
   );
